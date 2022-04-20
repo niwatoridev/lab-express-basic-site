@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Megrim&family=Playfair+Display&display=swap");
+
+body {
+  background-color: #cfc0c7;
+  margin: 0;
+}
+
+.infoCTangana {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 125px;
+}
+
+.cTanganaPic {
+  width: 400px;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+
+.cTanganaPic2 {
+  width: 300px;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+
+.madrileñoLogo {
+  width: 400px;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 50px;
+  margin: 0 0 30px 0;
+}
+
+.navBar a {
+  text-decoration: none;
+  color: #a12711;
+  margin-left: 40px;
+  font-family: "Cinzel Decorative", cursive;
+  transition-duration: 0.3s;
+  font-size: 25px;
+}
+
+.navBar a:hover {
+  color: white;
+}
+
+/* About */
+.primerSeccionAbout {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.albumCover {
+  width: 500px;
+  border-radius: 2%;
+}
+
+.nombreTangana {
+  font-family: "Cinzel Decorative", cursive;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0;
+}
+
+.biografiaTangana {
+  width: 500px;
+  margin-left: 55px;
+}
+
+.biografiaTangana p {
+  text-align: justify;
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+}
+
+.premiosChart {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: space-around;
+}
+
+.premiosSeparador {
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 15px;
+}
+
+.premiosTitulo {
+  display: flex;
+  flex-direction: row;
+}
+.premiosTitulo div {
+  display: flex;
+  justify-content: center;
+  width: 166.66px;
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: bold;
+}
+
+.premioRazon {
+  display: flex;
+  flex-direction: row;
+}
+
+.premioRazon div {
+  width: 166.66px;
+  font-family: "Cinzel Decorative", cursive;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+/* Tour */
+
+.tourSeccionUno {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tourImg {
+  width: 800px;
+}
